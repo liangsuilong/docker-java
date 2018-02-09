@@ -2,9 +2,9 @@ FROM ubuntu:16.04
 
 MAINTAINER Suilong Liang <suilong.liang@worktogether.io>
 
-ENV JAVA_MAJOR 8
-ENV JAVA_VERSION 8u151-b12
-ENV JAVA_VERSION_MINOR 0ubuntu0.16.04.2
+ENV JAVA_MAJOR 9
+ENV JAVA_VERSION 9~b114
+ENV JAVA_VERSION_MINOR 0ubuntu1
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN set -ex; \
